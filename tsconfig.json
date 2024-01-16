@@ -29,5 +29,9 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
+  "include": [
+    "src/**/*.ts", // Add the file pattern to include the missing file
+    "src/**/*.json"
+  ]
 }
